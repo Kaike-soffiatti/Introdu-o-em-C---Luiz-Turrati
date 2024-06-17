@@ -1,0 +1,231 @@
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main() {
+
+//   float F; //Fahrenheint
+//   float C; //Celcius
+
+//   printf("insira a temperatura em celcius \n");
+//   scanf("%f", &C);
+//   F = (C * 9 + 160)/5;
+
+//   printf("A temperatura em fahrenheint é: %.2f", F);
+  
+// return 0;
+// }
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main(){
+
+//   float v; //volume
+//   float r; //raio 
+//   float a; //altura
+  
+//   printf("insira o raio em cm\n");
+//   scanf("%f", &r);
+
+//   printf("insira a altura em cm\n");
+//   scanf("%f", &a);
+
+//   v = 3.14 * r * r * a;
+
+//   printf("O volume da lata é (em cm^3) de: %.1f", v);
+
+//   return 0;
+// }
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main(){
+
+//   float volume; //volume
+//   float raio; //raio 
+//   float altura; //altura
+//   float litros; //volume em litros
+
+//   printf("insira o raio em l\n");
+//   scanf("%f", &raio);
+
+//   printf("insira a altura em l\n");
+//   scanf("%f", &altura);
+
+//   volume = (3.14 * raio * raio * altura)/1000;
+  
+//   printf("O volume da lata é (em litros) é de: %.1f",volume);
+
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main() {
+
+//   float a;
+//   float b;
+//   float ab;
+
+//   printf("insira um valor \n");
+//   scanf("%f", &a);
+
+//   printf("insira um valor para multiplicar com o atenrior \n");
+//   scanf("%f", &b);
+
+//   ab = (a * b);
+
+//   printf("valor final multiplicado: %.1f",ab);
+
+
+//   return 0;
+// }
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main() {
+
+
+//   float a;
+//   float b;
+
+//   printf("Insira o valor para divisão \n");
+//     scanf("%f", &a);
+  
+//   printf("insira um valor para divisão \n");
+//   scanf("%f", &b);
+
+//   b = (a + b)/;
+
+//   printf("resultado; %.1f",b);
+
+  
+    
+
+
+  
+
+
+
+
+//   return 0;
+// }
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+//  int main(){
+
+//    float volume; //volume
+//    float raio; //raio 
+//    float altura; //altura
+//    float litros; //volume em litros
+
+//    printf("insira o raio em l\n");
+//    scanf("%f", &raio);
+
+//    printf("insira a altura em l\n");
+//    scanf("%f", &altura);
+
+//    volume = (3.14 * raio * raio * altura)/1000;
+
+//    printf("O volume da lata é (em litros) é de: %.1f",volume);
+
+//    return 0;
+//  }
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main() {
+
+//   float r;
+//   float a;
+//   float v;
+
+//   printf("Insira o valor do raio \n");
+//   scanf("%f", &r);
+
+//   printf("Insira o valor da altura \n");
+//   scanf("%f", &a);
+
+//   v = (3.1 * r * r * a);
+//   printf("O Volume total em litros é de: %.1f",v)/1000;
+
+//   return 0;
+//}
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main() {
+
+//   float r;
+//   float a;
+//   float v;
+
+//   printf("insira o valor do raio \n");
+//   scanf("%f", &r);
+
+//   printf("insira o valor da altura \n");
+//   scanf("%f", &a);
+
+//   v = (3.1 * r * r * a);
+//   printf("O volume total em litros é de: %.1f", v)/1000;
+
+//   return 0;
+// }
+
+
+// #include <stdio.h>
+
+// int main() {
+//   int n;
+//   printf("Digite um numero: ");
+//   scanf("%f", &n);
+//   if (n%2==0)
+//     //se o resto da divisão por 2 for igual a zero
+//     printf("Numero par!\n");
+//   else
+//     printf("Numero impar!\n");
+  
+//   return 0;
+// }
+
+#include <stdio.h>
+
+int main() {
+  float nota1, nota2, media;
+
+  //Solicitação da primeira nota
+  printf("Digite a primeira nota\n");
+  scanf("%f", &nota1);
+
+  printf("Digite a segunda nota\n");
+  scanf("%f", &nota2);
+
+  //calcualr a média
+  if (media >= 7.0){
+    printf("Aprovado! media = %.2f\n", media);
+  } else {
+    printf("Reprovado! media = %.2f\n", media);
+  }
+
+  return 0;
+}
+  
+
+  
+
+  
+
+
+
+  
+}
+
